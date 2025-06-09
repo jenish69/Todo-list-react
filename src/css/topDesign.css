@@ -1,0 +1,44 @@
+.design-cnt {
+    min-width: 1977px;
+    height: 190%;
+    background-image: linear-gradient(
+        to right,
+        rgba(33, 13, 22, 1) 14%,
+        rgba(184, 40, 105, 1),
+        rgba(229, 9, 20, 1),
+        rgba(184, 40, 105, 1),
+        rgba(33, 13, 22, 1) 84%
+    );
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-design {
+    position: relative;
+    max-width: 1536px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.top-cnt {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    width: 1977px;
+    height: 190%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background: radial-gradient(
+        60% 500% at 50% -440%,
+        rgba(64, 97, 231, 0.4) 80%,
+        rgba(0, 0, 0, 0.1) 100%
+    ),black;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "name" : "goodBadUgly",
+        "img": "./src/image/movieThumb/1.webp",
+        "catergories": ["2025", "U/A 16+", "Movie", "Action"],
+        "description": "After several years in prison, a former gangster seeks a quiet life with his family. But when his son winds up in jail, he must return to his old ways.",
+        "minImg": "./src/image/movieLogo/1.webp"
+    },
+    {
+        "name" : "chhaava",
+        "img": "./src/image/movieThumb/2.webp",
+        "catergories": ["2025", "U/A 16+", "Movie", "Action", "Dramas"],
+        "description": "After the death of his father, warrior-king Sambhaji Maharaj battles Mughal forces led by Aurangzeb to keep the Maratha Empire alive.",
+        "minImg": "./src/image/movieLogo/2.webp"
+    },
+    {
+        "name" :"jack",
+        "img": "./src/image/movieThumb/3.webp",
+        "catergories": ["2025", "U/A 16+", "Movie", "Comedien", "Action"],
+        "description": "After his wedding turns into a disaster, Laddu and his pals — Manoj, Ashok and Damodar — find themselves traveling to Goa for another wild adventure.",
+        "minImg": "./src/image/movieLogo/3.webp"
+    },
+    {
+        "name" : "theDiplomat",
+        "img": "./src/image/movieThumb/4.webp",
+        "catergories": ["2025", "Show", "Comedies", "Romance", "Dramas"],
+        "description": "When charming Prince Aviraaj meets Sophia, a self-made girl boss, the worlds of royalty and startups collide in a whirlwind of romance and ambition.",
+        "minImg": "./src/image/movieLogo/4.webp"
+    },
+    {
+        "name" : "jewelThief",
+        "img": "./src/image/movieThumb/5.webp",
+        "catergories": ["2025", "U/A 16+", "Movie", "Action", "Thriller"],
+        "description": "In this high-octane battle of wits and wills, ingenious con artist Rehan devises a diamond heist while trying to outsmart Rajan, his sadistic adversary.",
+        "minImg": "./src/image/movieLogo/5.webp"
+    },
+    {
+        "name" : "dragon",
+        "img": "./src/image/movieThumb/6.webp",
+        "catergories": ["2025", "U/A 13+", "Movie", "Comedies", "Romance", "Dramas"],
+        "description": "After a top student faces rejection and heartbreak, he cons his way into a finance career. But keeping up the facade proves tricky as the lies build.",
+        "minImg": "./src/image/movieLogo/6.webp"
+    }, 
+    {
+        "name" : "pushpa2",
+        "img": "./src/image/movieThumb/7.webp",
+        "catergories": ["2025", "U/A 16+", "Movie", "Action", "Dramas"],
+        "description": "As his smuggling empire grows, a brazen Pushpa longs for power and respect on his vengeful journey, while facing old rivals and new.",
+        "minImg": "./src/image/movieLogo/7.webp"
+    },
+    {
+        "name" : "courtStateVsBody",
+        "img": "./src/image/movieThumb/8.webp",
+        "catergories": ["2025", "U/A 13+", "Movie", "Dramas"],
+        "description": "A driven attorney battles a corrupt justice system to defend a young man whose relationship with a 17-year-old girl provokes her ruthless family's ire.",
+        "minImg": "./src/image/movieLogo/8.webp"
+    },
+    {
+        "name" : "deva",
+        "img": "./src/image/movieThumb/9.webp",
+        "catergories": ["2025", "U/A 13+", "Movie", "Thriller", "Dramas"],
+        "description": "Working on a complicated case, a fierce young police officer goes rogue to dismantle a lethal web of corruption and deceit — one epic battle at a time.",
+        "minImg": "./src/image/movieLogo/9.webp"
+    },
+    {
+        "name" : "whenLifeGiveYouTangerines",
+        "img" : "./src/image/movieThumb/10.webp",
+        "catergories": ["2025", "U/A 13+", "Show", "Romance", "Dramas"],
+        "description": "In Jeju, a spirited girl and a steadfast boy's island story blossoms into a lifelong tale of setbacks and triumphs — proving love endures across time.",
+        "minImg": "./src/image/movieLogo/10.webp"
+    }
+]

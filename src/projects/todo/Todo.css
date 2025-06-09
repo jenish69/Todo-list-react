@@ -1,0 +1,202 @@
+/* section {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+} */
+
+.todo-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 3%;
+  background-image: linear-gradient(100deg, #001214, #001f29);
+  color: white;
+  transition: 0.3s linear;
+  overflow: hidden;
+}
+
+.header,
+.form,
+.datetime {
+  margin: 0 1rem;
+  min-height: 10vh;
+  width: 100%;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 3rem;
+  min-height: 25vh;
+  width: 100%;
+}
+
+section h1 {
+  color: #fff;
+  font-size:45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.date-time {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+form input {
+  padding: 10px;
+  font-size: 18.05px;
+  letter-spacing: 0;
+  border: none;
+  outline: none;
+  /* border-radius: 15; */
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  max-width: 500px;
+  transition: background-color 200ms ease-in-out;
+  width: 100%;
+  background-color: #f2f3f4;
+  color: rgb(114, 114, 114);
+}
+
+form input:hover {
+  cursor: text;
+}
+
+form input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+button {
+  border: none;
+  outline: none;
+  transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
+  background-color: #2c3e50;
+  color: rgb(0, 0, 0);
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #f1c40f;
+}
+
+form button {
+  padding: 10.8px;
+  font-size: 17px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  min-width: 100px;
+  background-color: #5dade2;
+  color: var(--secondary-color);
+}
+
+span {
+  margin-right: 3.2rem;
+}
+
+.myUnOrdList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.todo-list {
+  min-width: 25%;
+
+  /* To remove the bullets of unordered list */
+  list-style: none;
+}
+
+.todo-item {
+  margin: auto;
+  /*word-wrap: break-word;
+    */ /*flex-wrap: wrap;
+    */
+  font-size: 20px;
+  color: #1c2833;
+  border-radius: 30px;
+  transition: background-color 200ms ease-in-out;
+  background-color: #f2f3f4;
+  width: 340px;
+  padding: 0.8rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 0.3fr;
+  justify-content: start;
+  gap: 1.6rem;
+  /*align-items: center;
+    */ /*wrapsthelinks*/
+  overflow-wrap: anywhere;
+  margin-bottom: 15px;
+}
+
+li span {
+  max-width: 10rem;
+  text-align: left;
+  color: #1c2833;
+  margin: 0;
+}
+
+.check-btn,
+.delete-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 80%;
+  margin: 0 5px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.check-btn {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.delete-btn {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.checkList {
+  text-decoration: line-through;
+}
+
+.notCheckList {
+  text-decoration: none;
+}
+
+.clear-btn {
+  background-color: #e74c3c;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  color: white;
+  -o-border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #8d1407;
+}

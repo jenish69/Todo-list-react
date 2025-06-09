@@ -1,0 +1,36 @@
+.toggle-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 225px;
+    background-color: grey;
+    border-radius: 100px;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 9px;
+}
+
+.switch {
+    border: none;
+    border-radius: 50%;
+    border: 7px solid grey;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+.on {
+    background-color: rgb(0, 220, 0);
+    transform: translateX(107px);
+}
+
+.off {
+    background-color: red;
+    transform: translateX(0);
+}
